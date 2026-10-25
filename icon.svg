@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="0" fill="#d3eedf"/>
+  <g fill="none" stroke="#bfe3cf" stroke-width="4">
+    <path d="M0 128H512M0 256H512M0 384H512M128 0V512M256 0V512M384 0V512"/>
+  </g>
+  <!-- road sweeping through a corner -->
+  <path d="M-40 430 C 120 430, 210 380, 300 250 S 470 70, 560 70" fill="none" stroke="#33284a" stroke-width="150" stroke-linecap="round"/>
+  <path d="M-40 430 C 120 430, 210 380, 300 250 S 470 70, 560 70" fill="none" stroke="#efe8fb" stroke-width="138" stroke-linecap="round"/>
+  <path d="M-40 430 C 120 430, 210 380, 300 250 S 470 70, 560 70" fill="none" stroke="#f4d470" stroke-width="7" stroke-dasharray="26 24"/>
+  <!-- skid marks -->
+  <g fill="none" stroke="#8b80a6" stroke-width="7" stroke-linecap="round" opacity=".7">
+    <path d="M60 392 C 130 395, 175 372, 215 330"/>
+    <path d="M70 430 C 140 432, 190 410, 230 362"/>
+  </g>
+  <!-- smoke puffs -->
+  <g fill="#efe8fb" stroke="#8b80a6" stroke-width="5">
+    <circle cx="190" cy="352" r="16"/><circle cx="160" cy="372" r="11"/><circle cx="205" cy="384" r="9"/>
+  </g>
+  <!-- F1 car, drifting -->
+  <g transform="translate(286 300) rotate(-62) scale(4.6)" stroke="#33284a" stroke-linejoin="round">
+    <g fill="#33284a" stroke="none">
+      <rect x="9" y="-16.2" width="10" height="6.5" rx="2" transform="rotate(-18 14 -13)"/>
+      <rect x="9" y="9.7" width="10" height="6.5" rx="2" transform="rotate(-18 14 13)"/>
+      <rect x="-22.5" y="-17.5" width="13" height="8" rx="2"/>
+      <rect x="-22.5" y="9.5" width="13" height="8" rx="2"/>
+    </g>
+    <rect x="-28" y="-11" width="5" height="22" fill="#ffbfb2" stroke-width="1.6"/>
+    <path d="M26 -1.8 L11 -3.8 L5 -5.5 L0 -9.5 L-13 -9.5 Q-19 -8 -21 -4.5 L-25 -3.5 L-25 3.5 L-21 4.5 Q-19 8 -13 9.5 L0 9.5 L5 5.5 L11 3.8 L26 1.8 Z" fill="#ffbfb2" stroke-width="2"/>
+    <path d="M28 -14 L24.5 -14 L22.5 -4 L22.5 4 L24.5 14 L28 14 Z" fill="#ffbfb2" stroke-width="1.6"/>
+    <ellipse cx="-1" cy="0" rx="6.5" ry="4.6" fill="#33284a" stroke="none"/>
+    <circle cx="-2" cy="0" r="3.4" fill="#bcd8fa" stroke-width="1.2"/>
+  </g>
+</svg>
